@@ -10,6 +10,7 @@ class Header extends Component {
         drawerOpen: false
     };
     componentDidMount() {
+        
     }
 
     toggleDrawer = (value) => {
