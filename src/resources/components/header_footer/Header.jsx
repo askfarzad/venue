@@ -1,16 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from "@material-ui/core/Toolbar/Toolbar";
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import SideDrawer from "./SideDrawer";
 
+
 class Header extends Component {
-    state        = {
+    state = {
         drawerOpen: false
     };
+
     componentDidMount() {
-        
+
     }
 
     toggleDrawer = (value) => {
@@ -32,11 +34,10 @@ class Header extends Component {
                         <div className="header_logo_title">Musical Events</div>
                     </div>
                     <IconButton color="inherit" aria-label="Menu" onClick={() => this.toggleDrawer(true)}>
-                        <MenuIcon/>
+                        <MenuIcon />
                     </IconButton>
-                    <SideDrawer open={this.state.drawerOpen} onClose={() => this.toggleDrawer(false)}/>
+                    <SideDrawer open={this.state.drawerOpen} onClose={() => this.toggleDrawer(false)} />
                 </Toolbar>
-
             </AppBar>
         );
     }
