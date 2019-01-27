@@ -5,8 +5,8 @@ import Header from './resources/components/header_footer/Header';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
+      <div className="App" style={{ height: '1500px', background: 'cornflowerblue' }}>
+        <Header />
       </div>
     );
   }
