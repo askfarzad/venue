@@ -26,7 +26,6 @@ const Carrousel = () => {
                 overflow: "hidden"
             }}
         >
-            {console.log(`url(${slide_one})`)}
             <Slider {...settings}>
                 <div>
                     <div
@@ -38,7 +37,6 @@ const Carrousel = () => {
                     />
                 </div>
                 <div>
-                    {" "}
                     <div
                         className="carrousel_image"
                         style={{
@@ -48,7 +46,6 @@ const Carrousel = () => {
                     />
                 </div>
                 <div>
-                    {" "}
                     <div
                         className="carrousel_image"
                         style={{
