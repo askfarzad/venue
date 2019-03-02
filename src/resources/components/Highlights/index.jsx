@@ -1,11 +1,14 @@
 import React from 'react';
+import Description from './Description';
+import Discount from './Discount';
 
-const Hightlights = () => {
+const Highlights = () => {
     return (
         <div className="highlight_wrapper">
-            salamlaksdhdkj
+            <Description/>
+            <Discount/>
         </div>
     );
 };
 
-export default Hightlights;
+export default Highlights;
