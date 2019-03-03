@@ -10,7 +10,6 @@ const Description = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus doloremque eligendi,
                     iste labore nam quaerat. Accusamus atque aut corporis illum, ipsa laboriosam non perferendis quis
                     tempore, unde, velit veniam!
-
                 </div>
             </div>
         </Fade>
